@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       items: [
-        { src: "picsum.photos/id/599/800/530", alt: "value2" },
+        { src: "../images/darkCity.png", alt: "value2" },
         { src: "picsum.photos/400/300?random=1", alt: "value4" },
         {
           src: "picsum.photos/600/300?random=2",
@@ -73,5 +73,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   grid-auto-rows: 15.5em;
   padding: 10px;
+}
+a{
+  color: white;
 }
 </style>

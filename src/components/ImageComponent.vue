@@ -13,7 +13,7 @@ export default {
   },
   methods: {
     resolve_url: function (url) {
-      return "https://" + url;
+      return  url;
     },
   },
 };
@@ -39,16 +39,18 @@ body {
 }
 
 .image_container img {
-  width: 90%;
-  height: 90%;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 95%;
+  height: 95%;
+  box-shadow: #26394d 0px 20px 30px -10px;
   object-fit: cover;
+  border-radius: 50px;
 }
 
 .image_container:hover {
   transform: scale(1.04);
   transition: transform 310ms ease-in-out;
 }
+
 
 @media screen and (min-width: 768px) {
   .image-tall {
