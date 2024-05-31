@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       items: [
-        { src: "../images/darkCity.png", alt: "value2" },
+        { src: "picsum.photos/id/599/800/530", alt: "value2" },
         { src: "picsum.photos/400/300?random=1", alt: "value4" },
         {
           src: "picsum.photos/600/300?random=2",
@@ -50,6 +50,14 @@ export default {
         },
         {
           src: "picsum.photos/200/300?random=9",
+          alt: "mosaic collection image",
+        },
+        {
+          src: "picsum.photos/200/300?random=10",
+          alt: "mosaic collection image",
+        },
+        {
+          src: "picsum.photos/200/300?random=11",
           alt: "mosaic collection image",
         },
       ],
