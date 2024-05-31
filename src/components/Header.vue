@@ -9,13 +9,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item active mx-3">
+              <li class="nav-item active mx-1">
                 <router-link class="nav-link" to="/">Home <span class="sr-only">(current)</span></router-link>
               </li>
-              <li class="nav-item" mx-3>
+              <li class="nav-item" mx-1>
                 <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-1">
                 <router-link class="nav-link" to="/blog">Blog</router-link>
               </li>
               <li class="nav-item dropdown">
@@ -26,13 +26,13 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <router-link to="/service1" class="dropdown-item nav-link" href="#">Service 1</router-link>
                   <router-link to="/service2" class="dropdown-item nav-link" href="#">Service 2</router-link>
-                  <router-link to="/service3" class="dropdown-item nav-link" href="#">Service 3</router-link>
+                  <router-link to="/service3" class="dropdown-item nav-link" href="#">Service 1</router-link>
                 </div>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-1">
                 <router-link class="nav-link" to="/testimonials ">Testimonials</router-link>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-1">
                 <router-link class="nav-link" to="/contact">contact us</router-link>
               </li>
             </ul>
@@ -51,7 +51,7 @@ export default {
 
 <style>
 .tilt {
-  background-color: rgb(0, 36, 34);
+  background-color: #1e012c;
   box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
   border: 2px solid rgba(255, 255, 255, 0.18);
   position: fixed;

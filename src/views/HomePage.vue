@@ -1,12 +1,9 @@
 <template>
-  <div class="container h-100"><h1>Home</h1></div>
-  <div class="gallary_container">
-    <ImageComponent
-      v-for="(item, index) in items"
-      :key="index"
-      :isrc="item.src"
-      :ialt="item.alt"
-    />
+  <div class="container h-100">
+    <h1 class="glow">𝓗𝓸𝓶𝓮 𝓟𝓪𝓰𝓮</h1>
+  </div>
+  <div class="mx-5 gallary_container">
+    <ImageComponent v-for="(item, index) in items" :key="index" :isrc="item.src" :ialt="item.alt" />
   </div>
 </template>
 
@@ -72,9 +69,11 @@ export default {
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-size: 18px;
 }
+
 .gallary_container {
   display: grid;
   gap: 1rem;
@@ -82,7 +81,18 @@ body {
   grid-auto-rows: 15.5em;
   padding: 10px;
 }
-a{
+
+.glow {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgb(255, 246, 121),
+    0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.3);
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+a {
   color: white;
 }
 </style>

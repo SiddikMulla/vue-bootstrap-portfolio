@@ -51,20 +51,23 @@ body {
   width: 90%;
   height: 90%;
   margin: 10px;
-  border: 10px solid #fefae0;
+  border: 2.4px solid #ffffff;
+  border-radius: 50px;
   -webkit-filter: blur();
   filter: blur(100%);
-  transition-duration: 1s;
-
+  transition-duration: 0.5s;
+  opacity: 1;
 }
 
 .image_container img:hover {
   border: 5px solid #fff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  transform: scale(1.05);
   -webkit-filter: none;
   filter: none;
+  border-radius: 0px;
+  opacity: 0.5;
 }
 
 
