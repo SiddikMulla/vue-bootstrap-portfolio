@@ -13,7 +13,7 @@ export default {
   },
   methods: {
     resolve_url: function (url) {
-      return  url;
+      return "https://" + url;
     },
   },
 };
@@ -36,19 +36,35 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   grid-auto-rows: 15.5em;
   padding: 10px;
+  margin-bottom: 3em;
+  
 }
 
 .image_container img {
-  width: 95%;
-  height: 95%;
-  box-shadow: #26394d 0px 20px 30px -10px;
+  /* width: 100%;
+  height: 100%;
+  box-shadow: #565656 0px 20px 30px -10px;
   object-fit: cover;
-  border-radius: 50px;
+  transition: opacity 0.5s ease;
+  opacity: 0.5;
+  Faded effect */
+  width: 90%;
+  height: 90%;
+  margin: 10px;
+  border: 10px solid #fefae0;
+  -webkit-filter: blur();
+  filter: blur(100%);
+  transition-duration: 1s;
+
 }
 
-.image_container:hover {
-  transform: scale(1.04);
-  transition: transform 310ms ease-in-out;
+.image_container img:hover {
+  border: 5px solid #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: none;
+  filter: none;
 }
 
 
