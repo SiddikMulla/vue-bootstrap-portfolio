@@ -17,6 +17,7 @@ export default {
   components: {
     AppHeader,
     // AppFooter,
+
   },
 };
 </script>
@@ -32,6 +33,8 @@ export default {
   /* background: url(https://res.cloudinary.com/ritalbradley/image/upload/v1657644013/pexels-elijah-o_donnell-3473569_o7ohfd.jpg) center/cover no-repeat fixed; */
 }
 
-
-
+.image-container{
+  display: flex;
+  
+}
 </style>
